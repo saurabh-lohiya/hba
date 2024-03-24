@@ -12,16 +12,13 @@ This Hotel Booking Application, developed using the MERN stack, revolutionizes t
 
 ## Technologies
 
-- JavaScript
+- Typescript
 - NodeJS
 - ExpressJS
 - ReactJS
-- Redux
-- Ant Design
-- Bootstrap
+- Redux Toolkit
 - Stripe
 - MongoDB
-- Bootstrap
 - HTML
 - CSS
-- API
+- RestAPI
