@@ -1,27 +1,42 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon -r esm server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "esm": "^3.2.25",
-    "express-formidable": "^1.2.0",
-    "express-jwt": "^6.0.0",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.9",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.6",
-    "query-string": "^6.13.8",
-    "stripe": "^8.129.0"
-  }
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node -r esm server.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/http-errors": "^2.0.4",
+		"@types/jsonwebtoken": "^9.0.6",
+		"bcrypt": "^5.1.1",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"esm": "^3.2.25",
+		"express": "^4.17.1",
+		"express-formidable": "^1.2.0",
+		"express-jwt": "^6.1.2",
+		"http-errors": "^2.0.0",
+		"joi": "^17.12.2",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.11.9",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.6",
+		"query-string": "^6.13.8",
+		"stripe": "^8.129.0",
+		"winston": "^3.12.0"
+	},
+	"devDependencies": {
+		"@types/bcrypt": "^5.0.2",
+		"@types/cors": "^2.8.17",
+		"@types/express": "^4.17.21",
+		"@types/express-formidable": "^1.2.3",
+		"@types/express-jwt": "^7.4.2",
+		"@types/node": "^20.11.22",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.2"
+	}
 }
